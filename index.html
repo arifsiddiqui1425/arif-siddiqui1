@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Arif Siddiqui | Portfolio </title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<div class="navbar">
+  <h2 class="logo">Arif Siddiqui</h2>
+  <div class="menu">
+    <a href="#home">Home</a>
+    <a href="#projects">Projects</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </div>
+</div>
+
+<!-- HERO -->
+<section id="home" class="hero">
+  
+ <h1>I Design Experiences That Connect & Convert 🎨</h1>
+<p>Graphic Designer • Web Developer • Visual Storyteller</p>
+
+<p class="subline">Helping brands grow through creative design & strategy.</p>
+
+  <div class="hero-buttons">
+    <a href="#projects" class="btn">View Work</a>
+
+    <a href="Arif_Siddiqui_Resume.pdf" target="_blank" class="btn-outline">
+      View CV 👁️
+    </a>
+
+    <a href="Arif_Siddiqui_Resume.pdf" download class="cv-download">
+      Download ⬇
+    </a>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section class="skills">
+  <h2>My Skills 💻</h2>
+  <div class="skill-box">
+  <div class="highlight">UI/UX Design</div>
+  <div class="highlight">Landing Page Design</div>
+  <div class="highlight">Frontend Development</div>
+  <div>Deployment (GitHub & Netlify)</div>
+  <div>Responsive Design</div>
+  <div>Graphic Design</div>
+  <div>Brand Identity</div>
+  <div>Social Media Creatives</div>
+</div>
+</section>
+
+
+<!-- PROJECTS -->
+<!-- PROJECTS -->
+<section id="projects" class="projects">
+  <h2>My Projects 🚀</h2>
+  <p class="project-tag">UI Design • Branding • Responsive</p>
+
+  <div class="project-container">
+
+    <!-- Project 1 -->
+    <div class="project-card">
+      <div class="project-img">
+        <img src="Images/web-sample2.jpg">
+      </div>
+      <div class="project-info">
+        <h3>Website Design & Development</h3>
+        <p>Modern business website with clean UI & responsive design.</p>
+        <div class="project-btns">
+          <a href="https://www.instagram.com/artonadvertising" target="_blank">Live</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project 2 -->
+    <div class="project-card">
+      <div class="project-img">
+        <img src="Images/clothesresize.jpg">
+      </div>
+      <div class="project-info">
+        <h3>Poster Designs</h3>
+        <p>Creative posters for multiple industries.</p>
+        <div class="project-btns">
+          <a href="javascript:void(0)" onclick="openPoster()">View</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project 3 -->
+    <div class="project-card">
+      <div class="project-img">
+        <img src="Images/landing-page-resize.jpg">
+      </div>
+      <div class="project-info">
+        <h3>Business Landing Page</h3>
+        <p>High-converting landing page design.</p>
+        <div class="project-btns">
+          <a href="javascript:void(0)" onclick="openLanding()">View</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project 4 -->
+    <div class="project-card">
+      <div class="project-img">
+        <img src="Images/social.jpg">
+      </div>
+      <div class="project-info">
+        <h3>Social Media Campaign</h3>
+        <p>High-converting social media creatives.</p>
+        <div class="project-btns">
+          <a href="javascript:void(0)" onclick="openSocial()">View</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project 5 -->
+    <div class="project-card">
+      <div class="project-img">
+        <img src="Images/ui-image-resize.jpg">
+      </div>
+      <div class="project-info">
+        <h3>Portfolio UI Design</h3>
+        <p>Modern personal portfolio UI.</p>
+        <div class="project-btns">
+          <a href="javascript:void(0)" onclick="openUI()">View</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+  
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="about">
+  <h2>About Me 👤</h2>
+ 
+<p>
+I’m a Graphic Designer and Web Developer with experience in branding, marketing visuals, and modern website design. I focus on creating designs that are not only visually appealing but also meaningful and effective.
+</p>
+  
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="contact">
+
+  <div class="contact-card">
+
+    <h2>Let's Work Together 🤝</h2>
+
+    <p>I’m available for freelance projects & collaborations.</p>
+
+    <a href="https://wa.me/918317007401" class="btn">
+      Start a Conversation...💬
+    </a>
+
+  </div>
+
+</section>
+
+<footer class="footer">
+  <p>© 2026 Arif Siddiqui. All rights reserved.</p>
+</footer>
+
+<!-- POSTER -->
+<div id="posterPopup" class="gallery-popup">
+  <span class="close-btn" onclick="closeAll()">✖</span>
+  <div class="gallery-content">
+    <img src="Images/clothes.png">
+    <img src="Images/market.png">
+    <img src="Images/makeup.png">
+    <img src="Images/market2.png">
+  </div>
+</div>
+
+<!-- LANDING -->
+<div id="landingPopup" class="gallery-popup">
+  <span class="close-btn" onclick="closeAll()">✖</span>
+  <div class="gallery-content">
+    <img src="Images/landing-page.png">
+    <img src="Images/landing-page2.png">
+  </div>
+</div>
+
+<!-- SOCIAL -->
+<div id="socialPopup" class="gallery-popup">
+  <span class="close-btn" onclick="closeAll()">✖</span>
+  <div class="gallery-content">
+    <img src="Images/optical.png">
+    <img src="Images/bakery-purple.png">
+    <img src="Images/jewellery.png">
+    <img src="Images/tattoo.png">
+  </div>
+</div>
+
+<!-- UI -->
+<div id="uiPopup" class="gallery-popup">
+  <span class="close-btn" onclick="closeAll()">✖</span>
+  <div class="gallery-content">
+    <img src="Images/arifsiddiqui.png">
+  </div>
+</div>
+<script src="script.js" defer></script>
+</body>
+
+</body>
+</html>
